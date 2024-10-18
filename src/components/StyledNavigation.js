@@ -48,8 +48,7 @@ export default function Navigation() {
             <NavbarLink
               key={index}
               to={link.path}
-              exact
-              activeClassName="current"
+
             >
               <li>{link.name}</li>
             </NavbarLink>
