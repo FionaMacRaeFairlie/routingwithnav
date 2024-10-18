@@ -4,7 +4,9 @@ import Home from "./components/Home";
 import Aboutus from "./components/Aboutus";
 import Contactus from "./components/Contactus";
 import Contents from "./components/Contents";
-import Navigation from "./components/Navigation";
+// import Navigation from "./components/Navigation";
+import Navigation from "./components/StyledNavigation"
+import "./App.css"
 
 function App() {
   return (

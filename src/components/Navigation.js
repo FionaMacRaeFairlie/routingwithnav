@@ -5,10 +5,10 @@ const Navigation = () => {
   return (
     <>
       <nav>
-        <Link to="/" style={{margin:"20px"}}>Home</Link>
-        <Link to="contents" style={{margin:"20px"}}>Contents</Link>
-        <Link to="about"style={{margin:"20px"}}>About Us</Link>
-        <Link to="contactus" style={{margin:"20px"}}>Contact Us</Link>
+        <Link to="/" >Home</Link>
+        <Link to="contents">Contents</Link>
+        <Link to="about">About Us</Link>
+        <Link to="contactus">Contact Us</Link>
       </nav>
       <Outlet />
     </>
